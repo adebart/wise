@@ -1,0 +1,153 @@
+body{
+    text-align: center;
+    padding-top: 20%;
+    background-color: #239862;
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    font-size: 2.5rem;
+    color:aqua;
+}
+button{
+    /* height: 20%;
+     */
+    background-color: brown;
+    color: white;
+    width: 10%;
+    border: none;
+    border-radius: 20%;
+}
+#yes {
+    height: 30px;
+}
+#no {
+    height: 30px;
+    
+}
+#no1 {
+    height: 30px;
+    position: fixed;
+    top: 10%;
+    left: 30%;
+    display: none;
+    animation: infinite 3s adebart ease-in-out;
+}
+@keyframes adebart{
+    0%{
+        transform: translateX(10%);
+    }
+    10%{
+        transform: translateX(60%);
+        
+    }
+    20%{
+        transform: translatey(40%);
+        
+    }
+    100%{
+        transform: translatey(10%);
+        
+    }
+    
+}
+#no2 {
+    height: 30px;
+    position: fixed;
+    bottom: 10%;
+    left: 10%;
+    display: none;
+    animation: infinite 3s adebart ease-in-out;
+}
+#no3 {
+    height: 30px;
+    position: fixed;
+    top: 10%;
+    display: none;
+    left: 70%;
+    animation: infinite 3s adebart ease-in-out;
+}
+#no4 {
+    height: 30px;
+    position: fixed;
+   bottom: 10%;
+    left: 70%;
+    display: none;
+    animation: infinite 3s adebart ease-in-out;
+}
+#div0{
+    display: none;
+    animation: infinite 1s slide ;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(50%);
+    }
+   100%{
+        transform: translateX(0%);
+    }
+}
+span{
+    color: white;
+    font-size: 1.5rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+#div1{
+    display: none;
+    animation: infinite 1s slides ;
+    color: blue;
+    animation-delay: 2s;
+}
+@keyframes slides{
+    0%{
+        transform: translateX(-50%);
+    }
+   100%{
+        transform: translateX(0%);
+    }
+}
+#div2{
+    display: none;
+    animation: infinite 1s slidep ;
+    color: chartreuse;
+    animation-delay: 3s;
+}
+@keyframes slidep{
+    0%{
+        transform: translateX(50%);
+    }
+   100%{
+        transform: translateX(0%);
+    }
+}
+#div3{
+    display: none;
+    animation: infinite 1s slidess ;
+    animation-delay: 5s;
+}
+@keyframes slidess{
+    0%{
+        transform: translateX(-50%);
+    }
+   100%{
+        transform: translateX(0%);
+    }
+}
+#div4{
+    display: none;
+    animation: infinite 1s slwides ;
+    animation-delay: 6s;
+}
+@keyframes slwides{
+    0%{
+        transform: translateX(50%);
+    }
+   100%{
+        transform: translateX(0%);
+    }
+}
+p{
+    position: fixed;
+    bottom: 5%;
+    text-align: center;
+}
